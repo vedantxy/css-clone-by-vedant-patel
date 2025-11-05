@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>roadpilot</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="top_bar">
+
+            <div>
+                <div class="top-in-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="hsl(48 98% 49% / 1)"
+                            d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.325.225-.587t.575-.363l3.45-.7q.35-.05.713.063t.587.337L10.9 17q.95-.55 1.8-1.213t1.625-1.437q.825-.8 1.513-1.662t1.187-1.788L14.6 8.45q-.2-.2-.275-.475T14.3 7.3l.65-3.5q.05-.325.325-.562T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.125-1.362 6.175t-3.863 5.55t-5.55 3.863T4.05 21" />
+                    </svg>
+
+                    <a href="#">1800-571-55-99</a>
+
+                    <hr>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="hsl(48 98% 49% / 1)"
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m0 4l-8 5l-8-5V6l8 5l8-5z" />
+                    </svg>
+
+                    <a href="#">info@roadpilot.co.in</a>
+
+
+                </div>
+
+            </div>
+
+
+            <div>
+                <div class="lang_bar">
+                    <a href="#">English</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" stroke="hsl(48 98% 49% / 1)" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="m6 9l6 6l6-6" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                        <path fill="hsl(48 98% 49% / 1)"
+                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                        <path fill="hsl(48 98% 49% / 1)"
+                            d="m186.8 202.1l95.2 54.1l-95.2 54.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48m-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4c-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9c7.6-28.5 7.6-88.1 7.6-88.1" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                        <path fill="hsl(48 98% 49% / 1)"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9S287.7 141 224.1 141m0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7s74.7 33.5 74.7 74.7s-33.6 74.7-74.7 74.7m146.4-194.3c0 14.9-12 26.8-26.8 26.8c-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8s26.8 12 26.8 26.8m76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9c-26.2-26.2-58-34.4-93.9-36.2c-37-2.1-147.9-2.1-184.9 0c-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9c1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0c35.9-1.7 67.7-9.9 93.9-36.2c26.2-26.2 34.4-58 36.2-93.9c2.1-37 2.1-147.8 0-184.8M398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1" />
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="second_nav">
+            <div>
+                <div class="logo_bar">
+                    <a href="#"><img src="https://roadpilot.co.in/assets/images/general/logo.png" alt="" height="111"
+                            width="160"></a>
+                </div>
+            </div>
+
+            <div>
+                <div class="item_bar">
+                    <a href="#">Home</a>
+                    <a href="#">Plan</a>
+                    <a href="#">Services</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+
+            <div>
+
+                <div class="logo_nav">
+
+                    <div class="logo-1_bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#000"
+                                d="M12 3.5a8.5 8.5 0 1 0 8.46 9.32a.5.5 0 0 0-.812-.435a5 5 0 1 1-6.137-7.893a.5.5 0 0 0-.225-.895A8.6 8.6 0 0 0 12 3.5" />
+                        </svg>
+                    </div>
+
+                    <div class="login_bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="#fff">
+                                <path d="M14 19a1 1 0 1 0 0 2h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-5a1 1 0 1 0 0 2h5v14z" />
+                                <path
+                                    d="M15.714 12.7a1 1 0 0 0 .286-.697v-.006a1 1 0 0 0-.293-.704l-4-4a1 1 0 1 0-1.414 1.414L12.586 11H3a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 1 0 1.414 1.414l4-4z" />
+                            </g>
+                        </svg>
+                        <a href="#">Login</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+    <main>
+
+        <div class="upper_bar">
+
+
+            <div>
+                <div class="subtitle_bar">
+                    <a href="#">WELCOME TO ROAD PILOT</a>
+                </div>
+
+                <div class="big-write">
+                    <h2>YOUR PATH TO <br>EMPOWERED <br> TRUCKING</h2>
+                </div>
+
+                <div class="text-write">
+                    <p>A trusted platform for Truck Drivers and Fleet Owners to fulfil their need.</p>
+                </div>
+
+                <div class="main-btn">
+                    <div class="btn-1">
+                        <a href="#">Register Drivers</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#fff"
+                                d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"
+                                stroke-width="1.2" stroke="#fff" />
+                        </svg>
+                    </div>
+                    <div class="btn-2">
+                        <a href="#">Register Owners</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#black"
+                                d="M7 9h10V7H7zM3 21V3h18v8.45q-.575-1.125-1.65-1.787T17 9q-1.125 0-2.1.525T13.275 11H7v2h5.525q-.05.5 0 1t.225 1H7v2h3.925q-.475.55-.7 1.213T10 19.6V21zm9 0v-1.4q0-.6.313-1.112t.887-.738q.9-.375 1.863-.562T17 17t1.938.188t1.862.562q.575.225.888.738T22 19.6V21zm5-5q-1.05 0-1.775-.725T14.5 13.5t.725-1.775T17 11t1.775.725t.725 1.775t-.725 1.775T17 16"
+                                stroke-width="0.4" stroke="#fff" />
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div>
+                <div class="img-1">
+                    <img src="https://roadpilot.co.in/assets/images/frontend/banner/66d559bf53e891725258175.png" alt=""
+                        style="border-radius: 50px 0 50px 0 ;">
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="top-part-1">
+
+
+            <div class="bet-1">
+
+                <div class="img-2">
+                    <img src="https://roadpilot.co.in/assets/images/frontend/about/65079dfc6cb8b1694998012.png" alt="">
+                </div>
+                <div class="img-3">
+                    <img src="https://roadpilot.co.in/assets/images/frontend/about/65079e54aaa0b1694998100.png" alt=""
+                        height="300px" width="400px">
+                </div>
+
+                <div class="btn-3">
+
+                    <div class="phone_logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="#F7C602"
+                                d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.325.225-.587t.575-.363l3.45-.7q.35-.05.713.063t.587.337L10.9 17q.95-.55 1.8-1.213t1.625-1.437q.825-.8 1.513-1.662t1.187-1.788L14.6 8.45q-.2-.2-.275-.475T14.3 7.3l.65-3.5q.05-.325.325-.562T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.125-1.362 6.175t-3.863 5.55t-5.55 3.863T4.05 21"
+                                stroke-width="0.4" stroke="#F7C602" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <div class="information-1">
+                            <h4>For Emergency</h4>
+                            <p>1800-571-55-99</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="btn-4">
+                    <div>
+                        <h1>5</h1>
+                    </div>
+                    <div>
+                        <p>Years Of Experience</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bet-2">
+
+                <div class="btn-5">
+                    <p> About Us</p>
+                </div>
+
+                <div class="part-1">
+                    <h1>Product/Services</h1>
+                </div>
+
+                <div class="part-2">
+                    <p>Across the globe, it can be said that Logistics is the tail of commerce and trucking is
+                        the tip of the tail. Trucking operations, from an Indian perspective, can be said to be
+                        the lifeline of commerce and economic development. Road Pilot Technologies Pvt Ltd is a
+                        one of its kind service in India which provides a digital platform in terms of mobile
+                        app for the core group of people involved in the trucking industry i.e. Truck
+                        owners, Truck drivers, Dhabhas, and Truck mechanics.</p>
+                </div>
+
+                <div class="part-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="#F7C602" fill-rule="evenodd"
+                            d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                            clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                    </svg>
+                    <p>Maximum Your Sales</p>
+
+                </div>
+
+                <div class="part-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="#F7C602" fill-rule="evenodd"
+                            d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                            clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                    </svg>
+                    <p>Find Verified and Trusted Drivers</p>
+
+                </div>
+
+                <div class="part-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                        <path fill="#F7C602" fill-rule="evenodd"
+                            d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                            clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                    </svg>
+                    <p>Find a Job at any Location ay any time</p>
+
+                </div>
+
+                <div class="part-4">
+                    <h2>View More></h2>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="top-part-2">
+
+            <div class="part-5">
+                <h3>Join Us At Road Pilot</h3>
+            </div>
+            <div class="part-6">
+                <h1>Our Best Solution</h1>
+            </div>
+            <div class="part-7">
+                <p style="text-align: center;">Where we're revolutionizing the trucking industry, one empowered driver
+                    at a time. Together,<br> we're driving change and creating a future full of pride and prosperity.
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="top-part-3">
+
+            <div>
+                <div class="part-8">
+                    <h3>Why choose Us</h3>
+                </div>
+                <div class="part-9">
+                    <h1>Truck Drive-Centric <br> Focus</h1>
+                </div>
+                <div class="part-10">
+                    <p>Road Pilot stands out by prioritizing the needs and aspirations of truck drivers. Our app is
+                        meticulously designed to cater to the unique challenges they face, providing a tailored and
+                        effective job search and employment generation experience</p>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://roadpilot.co.in/assets/presets/default/images/chooseus-bg.png" alt="" height="457px"
+                    width="833px
+                " style="opacity: 0.2;">
+            </div>
+
+        </div>
+
+
+        <div class="top-part-4">
+
+
+            <div class="part-11">
+                <img src="https://roadpilot.co.in/assets/images/frontend/choose_us/65079b9cb02331694997404.png" alt="">
+            </div>
+
+
+
+            <div class="part-12">
+
+                <div class="part-13">
+                    <h2>Access to Insurance Coverage</h2>
+                </div>
+                <div class="part-14">
+                    <p>We understand the pressing need for insurance among truck drivers. Road Pilot offers access to health insurance and personal accident insurance coverage, setting us apart from other job search and employment generation apps.</p>
+                </div>
+
+
+
+
+
+                <div class="part-15">
+                    <div class="write-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#F7C602" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2.2" d="m5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+
+                    <div class="write-2">
+
+                        <div class="part-16">
+                            <h2>Cross-Selling Opportunities</h2>
+                            <p>We've partnered with dhabas and truck <br>mechanics to offer you more than just job
+                                <br>opportunities. Enjoy cross-selling oppor...
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="part-15">
+                    <div class="write-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#F7C602" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2.2" d="m5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+
+                    <div class="write-2">
+
+                        <div class="part-16">
+                            <h2>Empowerment of Truck Drivers</h2>
+                            <p>Road Pilot empowers truck drivers by offering a <br> wide array of job opportunities and
+                                insurance <br> coverage. We believe in gi...
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="part-15">
+                    <div class="write-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                            <path fill="none" stroke="#F7C602" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2.2" d="m5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+
+                    <div class="write-2">
+
+                        <div class="part-16">
+                            <h2>Centralized Platform</h2>
+                            <p>Our centralized platform simplifies job search and <br>application processes, saving
+                                drivers from the <br> hassle of scouring mul...
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="top-part-5">
+
+            <div class="part-17">
+                <p>Our Experience</p>
+            </div>
+
+            <div class="write-3">
+                <b>
+                    <h1>We at Road Pilot are on a mission to restore the <br> lost pride and honor of our truck drivers
+                        and <br> fleet owners</h1>
+                </b>
+            </div>
+
+
+            <div class="hy">
+
+                <div class="part-18">
+
+                    <div class="write-4">
+                        <p>127+</p>
+                        <p>Mechanic</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="part-19">
+
+                    <div class="write-5">
+                        <p>200+</p>
+                        <p>Dhaba</p>
+                    </div>
+
+                </div>
+
+
+                <div class="part-20">
+
+                    <div class="write-6">
+                        <p>13,680+</p>
+                        <p>Owners</p>
+                    </div>
+
+                </div>
+
+
+                <div class="part-21">
+
+                    <div class="write-7">
+                        <p>40,000+</p>
+                        <p>Drivers</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+        <div class="part-22">
+            <div class="write-8">
+                <p>Our Subscription Plan</p>
+            </div>
+            <div class="write-9">
+                <p><b>Subscription Plans For Our Users</b></p>
+            </div>
+            <div class="write-10">
+                <p>As per the services that we are providing for the users we have developed best User-Friendly
+                    <br>subscription plans.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="part-23">
+
+            <div>
+                <div class="write-11">
+                    <div class="made-1">
+
+                        <h1>For Mechanics</h1>
+                        <h3>₹1,100.00/y</h3>
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Annual Subscription</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Pan India Visibility</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Increase in Footfall</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Sales maximization</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Digital Promotion</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>100% Digital payment</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Direct network with fleet Owners</p>
+
+                        </div>
+
+
+                        <div class="part-25">
+                            <p>Get Start </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"
+                                    stroke-width="1.2" stroke="#fff" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+                <div class="write-12">
+                    <div class="made-2">
+                        <h1>For Dhaba</h1>
+                        <h3>₹10.00/m</h3>
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>per transaction</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Pan India Visibility</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Increase in Footfall</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Sales maximization</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Digital Promotion</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>100% Digital payment</p>
+
+                        </div>
+
+
+
+
+
+                        <div class="part-25">
+                            <p>Get Start </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"
+                                    stroke-width="1.2" stroke="#fff" />
+                            </svg>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="write-13">
+                    <div class="made-3">
+                        <h1>Premium For Truck Owners</h1>
+                        <h3>₹4,999.00/y</h3>
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Annual Subscription</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Unlimited classifieds</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Direct connection with <br> nationwide truck drivers</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Direct connection with <br>nationwide truck mechanics</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Remotely hire truck drivers</p>
+
+                        </div>
+
+
+                        <div class="part-24">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="#F7C602" fill-rule="evenodd"
+                                    d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M7.53 11.97a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0-1.06-1.06L10 14.44z"
+                                    clip-rule="evenodd" stroke-width="0.4" stroke="#F7C602" />
+                            </svg>
+                            <p>Nationwide access</p>
+
+                        </div>
+
+
+                        <div class="part-25">
+                            <p>Get Start </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M16.15 13H5q-.425 0-.712-.288T4 12t.288-.712T5 11h11.15L13.3 8.15q-.3-.3-.288-.7t.288-.7q.3-.3.713-.312t.712.287L19.3 11.3q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.575 4.575q-.3.3-.712.288t-.713-.313q-.275-.3-.288-.7t.288-.7z"
+                                    stroke-width="1.2" stroke="#fff" />
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="part-26">
+
+            <div class="write-14">
+                <p>Our Vision</p>
+            </div>
+
+            <div class="write-15">
+                <h1>Our Grand Vision</h1>
+            </div>
+            <div class="write-16">
+                <p>We at Road Pilot are on a mission to restore the lost pride and honor of our truck drivers and <br>
+                    fleet owners. We envision a future where every truck driver feels respected and valued, and
+                    <br>where the gap between drivers and fleet owners is bridged, creating a harmonious and <br>
+                    prosperous ecosystem
+                </p>
+            </div>
+        </div>
+
+        <div class="part-27">
+            <div class="write-17">
+                <p>Testimonials</p>
+            </div>
+            <div class="write-28">
+                <h1>What Do They Say About Us.</h1>
+            </div>
+            <div class="write-29">
+                <p>What do Truck Drivers and Fleet Owners Think about Us ?</p>
+            </div>
+        </div>
+
+        <div class="part-29">
+            <div class="write-30">
+                <div class="made-4">
+                    <p>News Letter</p>
+                </div>
+                <div class="made-5">
+                    <h1>Subscribe Our Newsletter</h1>
+                </div>
+                <div class="made-6">
+                    <p>Get the latest updates at your notice through mail.</p>
+                </div>
+                <div class="made-7">
+                    <div>
+                        <div class="made-8">
+                            <p>Enter your mail</p>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="made-9">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#fff"
+                                    d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7.175q.125 0 .263-.038t.262-.112L19.6 8.25q.2-.125.3-.312t.1-.413q0-.5-.425-.75T18.7 6.8L12 11L5.3 6.8q-.45-.275-.875-.012T4 7.525q0 .25.1.438t.3.287l7.075 4.425q.125.075.263.113t.262.037"
+                                    stroke-width="0.2" stroke="#fff" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="write-31">
+                <img src="https://roadpilot.co.in/assets/images/frontend/subscribe/6507a0bd13bb61694998717.jpg" alt=""
+                    height="369.27px" width="526px" style="border-radius:25px 0px 25px 0px;">
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-about">
+                <img src="https://roadpilot.co.in/assets/images/general/logo_white.png" alt="Road Pilot Logo"
+                    class="logo" height="64px" width="160px" />
+                <p>Let's make something great together. We are trusted by over 1000+ Drivers. Join them by using our
+                    services and grow your business.</p>
+
+                <ul class="contact-info">
+                    <li>📍 E-1475 OMAXE CITY, R. B. ROAD LUCKNOW, UP 226002 IN</li>
+                    <li>✉️ info@roadpilot.co.in</li>
+                    <li>📞 1800-571-55-99</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Company Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Hiring</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Important Link</h3>
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Plans</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Get the latest updates at your notice through mail...</p>
+                <form>
+                    <input type="email" placeholder="Email..." required />
+                    <button type="submit">Subscribe</button>
+                </form>
+
+                <div class="social-icons">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24.5" height="28" viewBox="0 0 448 512">
+                            <path fill="#fff"
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5c0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7c-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5c67.2 0 79.7 44.3 79.7 101.9z"
+                                stroke-width="1" stroke="#fff" />
+                        </svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24.5" height="28" viewBox="0 0 448 512">
+                            <path fill="#fff"
+                                d="m186.8 202.1l95.2 54.1l-95.2 54.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48m-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4c-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9c7.6-28.5 7.6-88.1 7.6-88.1"
+                                stroke-width="1" stroke="#fff" />
+                        </svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24.5" height="28" viewBox="0 0 448 512">
+                            <path fill="#fff"
+                                d="M224 202.66A53.34 53.34 0 1 0 277.36 256A53.38 53.38 0 0 0 224 202.66m124.71-41a54 54 0 0 0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31 6.43a54 54 0 0 0-30.41 30.41c-8.28 21-6.43 71.05-6.43 94.33s-1.85 73.27 6.47 94.34a54 54 0 0 0 30.41 30.41c21 8.29 71 6.43 94.31 6.43s73.24 1.93 94.3-6.43a54 54 0 0 0 30.41-30.41c8.35-21 6.43-71.05 6.43-94.33s1.92-73.26-6.43-94.33ZM224 338a82 82 0 1 1 82-82a81.9 81.9 0 0 1-82 82m85.38-148.3a19.14 19.14 0 1 1 19.13-19.14a19.1 19.1 0 0 1-19.09 19.18ZM400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48m-17.12 290c-1.29 25.63-7.14 48.34-25.85 67s-41.4 24.63-67 25.85c-26.41 1.49-105.59 1.49-132 0c-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61 0-132c1.29-25.63 7.07-48.34 25.85-67s41.47-24.56 67-25.78c26.41-1.49 105.59-1.49 132 0c25.63 1.29 48.33 7.15 67 25.85s24.63 41.42 25.85 67.05c1.49 26.32 1.49 105.44 0 131.88"
+                                stroke-width="1" stroke="#fff" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright 2023. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
